@@ -11,6 +11,8 @@ const pool = new Pool({
 
 const router = new Router();
 // export our router to be mounted by the parent application
+
+//César comento esto
 module.exports = router;
 
 router.get('/consultatotalpacientes', async (req, res) => {
